@@ -1,15 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
+using Runner.Problems._0011;
 
 namespace Runner
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            SolveProblem<Problem0011>();
+        }
+
+        private static void SolveProblem<TProblem>() where TProblem : IProblem
+        {
+            var problem = Activator.CreateInstance<TProblem>();
+            problem.Initialize();
+
+            var stopWatch = Stopwatch.StartNew();
+            var solution = problem.Solve();
+            stopWatch.Stop();
+
+            Console.WriteLine("The solution is : " + solution);
+            Console.WriteLine($"Execution took: {stopWatch.Elapsed.TotalMilliseconds} ms");
         }
     }
 }
