@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using Runner.Problems._0011;
+using Runner.Problems;
+
 
 namespace Runner
 {
@@ -8,7 +9,7 @@ namespace Runner
     {
         static void Main()
         {
-            SolveProblem<Problem0011>();
+            SolveProblem<Problem0012>();
         }
 
         private static void SolveProblem<TProblem>() where TProblem : IProblem

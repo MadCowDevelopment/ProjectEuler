@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="IProblem.cs" />
     <Compile Include="Problems\0011\Problem0011.cs" />
+    <Compile Include="Problems\0012\Problem0012.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Problems\0011\data.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\primes10k.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

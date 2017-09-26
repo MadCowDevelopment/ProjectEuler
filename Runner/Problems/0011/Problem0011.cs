@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Runner.Problems._0011
+namespace Runner.Problems
 {
     public class Problem0011 : IProblem
     {
