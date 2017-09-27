@@ -46,6 +46,7 @@
     <Compile Include="IProblem.cs" />
     <Compile Include="Problems\0011\Problem0011.cs" />
     <Compile Include="Problems\0012\Problem0012.cs" />
+    <Compile Include="Problems\0013\Problem0013.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,6 +59,9 @@
     </Content>
     <Content Include="Data\primes10k.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Problems\0013\data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
