@@ -50,6 +50,7 @@
     <Compile Include="Problems\0012\Problem0012.cs" />
     <Compile Include="Problems\0013\Problem0013.cs" />
     <Compile Include="Problems\0014\Problem0014.cs" />
+    <Compile Include="Problems\0015\Problem0015.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +68,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
