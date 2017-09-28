@@ -4,10 +4,10 @@ using System.Linq;
 
 namespace Runner.Problems
 {
-    public class Problem0013 : IProblem
+    public class Problem0013 : Problem
     {
         private List<string> _numbers = new List<string>();
-        public object Solve()
+        public override object Solve()
         {
             var digits = new List<int>();
             int borrow = 0;
@@ -39,7 +39,7 @@ namespace Runner.Problems
             return result;
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             var lines = File.ReadAllLines(@"Problems\0013\data.txt");
             _numbers = lines.ToList();

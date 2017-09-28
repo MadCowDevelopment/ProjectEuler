@@ -5,14 +5,14 @@ using System.Linq;
 
 namespace Runner.Problems
 {
-    public class Problem0011 : IProblem
+    public class Problem0011 : Problem
     {
         private const int Rows = 20;
         private const int Cols = 20;
 
         private readonly int[,] _data = new int[Rows, Cols];
 
-        public object Solve()
+        public override object Solve()
         {
             var tuples = new List<Tuple<int, int, int, int>>();
             for (int row = 0; row < 20; row++)
@@ -29,7 +29,7 @@ namespace Runner.Problems
             return tuples.Max(p => p.Item1 * p.Item2 * p.Item3 * p.Item4);
         }
 
-        public void Initialize()
+        public override void Initialize()
         {
             try
             {

@@ -2,9 +2,9 @@
 
 namespace Runner.Problems
 {
-    public class Problem0012 : IProblem
+    public class Problem0012 : Problem
     {
-        public object Solve()
+        public override object Solve()
         {
             var current = 0;
             for (var i = 1; i < 100000; i++)
@@ -36,10 +36,6 @@ namespace Runner.Problems
             }
 
             return count;
-        }
-
-        public void Initialize()
-        {
         }
     }
 }
