@@ -57,6 +57,7 @@
     <Compile Include="Problems\0019\Problem0019.cs" />
     <Compile Include="Problems\0020\Problem0020.cs" />
     <Compile Include="Problems\0021\Problem0021.cs" />
+    <Compile Include="Problems\0022\Problem0022.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\IntegerExtensions.cs" />
@@ -75,6 +76,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Problems\0018\data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Problems\0022\data.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

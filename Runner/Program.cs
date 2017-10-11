@@ -9,7 +9,7 @@ namespace Runner
     {
         static void Main()
         {
-            SolveProblem<Problem0021>();
+            SolveProblem<Problem0022>();
         }
 
         private static void SolveProblem<TProblem>() where TProblem : IProblem
