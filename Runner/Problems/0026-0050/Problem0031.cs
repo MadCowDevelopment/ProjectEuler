@@ -1,6 +1,6 @@
 ﻿namespace Runner.Problems
 {
-    public class Problem0030 : Problem
+    public class Problem0031 : Problem
     {
         public override object Solve()
         {

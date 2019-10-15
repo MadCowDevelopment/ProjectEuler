@@ -41,7 +41,7 @@ namespace Runner.Problems
 
         public override void Initialize()
         {
-            var lines = File.ReadAllLines(@"Problems\0013\data.txt");
+            var lines = File.ReadAllLines(@"Problem0013.dat");
             _numbers = lines.ToList();
         }
     }

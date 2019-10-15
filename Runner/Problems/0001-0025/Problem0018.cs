@@ -34,7 +34,7 @@ namespace Runner.Problems
         {
             base.Initialize();
 
-            var lines = File.ReadAllLines(@"Problems\0018\data.txt");
+            var lines = File.ReadAllLines(@"Problem0018.dat");
             foreach (var line in lines)
             {
                 _data.Add(line.Split(' ').Select(item => BigInteger.Parse(item.Trim())).ToList());

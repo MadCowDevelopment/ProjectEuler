@@ -33,7 +33,7 @@ namespace Runner.Problems
         {
             try
             {
-                var reader = new StreamReader(@"Problems\0011\data.txt");
+                var reader = new StreamReader(@"Problems\Problem0011.dat");
                 var line = "";
                 var i = 0;
                 while ((line = reader.ReadLine()) != null)

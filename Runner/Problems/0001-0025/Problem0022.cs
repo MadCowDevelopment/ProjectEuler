@@ -31,7 +31,7 @@ namespace Runner.Problems
         {
             base.Initialize();
 
-            var line = File.ReadAllLines(@"Problems\0022\data.txt")[0];
+            var line = File.ReadAllLines(@"Problem0022.dat")[0];
             _names = line.Split(',').Select(p => p.Trim('"')).OrderBy(p => p).ToList();
         }
     }
